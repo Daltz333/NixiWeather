@@ -5,5 +5,8 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.NixiWeather" parent="Base.Theme.NixiWeather" />
+    <style name="Theme.NixiWeather" parent="Base.Theme.NixiWeather">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
 </resources>
